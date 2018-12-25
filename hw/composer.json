@@ -1,0 +1,21 @@
+{
+    "name": "piero/hw",
+    "description": "hw composer project",
+    "type": "library",
+    "license": "free",
+    "authors": [
+        {
+            "name": "Piero",
+            "email": "pieroattanasio@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "hw": "src/"
+        }
+    }
+}
